@@ -1,0 +1,89 @@
+.player-info-form {
+  width: 100vw;
+  height: 5vh;
+  max-width: 100%;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  border-color: black;
+}
+
+.ready-text {
+  margin: 15px;
+}
+
+.subtext {
+  font-size: 14px;
+}
+
+.table-form {
+  color: black;
+}
+
+.col-md-6 {
+  display: inline-block;
+  margin: auto;
+}
+
+input:focus::placeholder{
+  color:transparent;
+}
+
+#saved-course-form {
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#pick-course {
+  margin-left: 10px;
+}
+
+.submit {
+  color: black;
+  font-style: bold;
+  background-color: lightblue;
+  border-radius: 25px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.player-info {
+  display: block;
+  text-align: center;
+}
+
+.player-info-container {
+  display: block;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#to-scorecard {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#to-login {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+}

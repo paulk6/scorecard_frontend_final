@@ -1,0 +1,104 @@
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 0px;
+    background-color: transparent;
+    text-align: center;
+}
+
+table>td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table {
+    padding-left: 5px;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th {
+  border: 1px solid black;
+  width: 8.5%;
+  max-width: 10%;
+  color: lightgray;
+}
+
+td {
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+.button {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.green-row {
+  background-color: green;
+  color: lightgray;
+  text-align: center;
+}
+
+.blue-row {
+  background-color: blue;
+  color: lightgray;
+}
+
+.blue-row>td>input {
+  color: lightgray;
+}
+
+.light-green-row {
+  background-color: lightgreen;
+}
+
+.light-green-row>td {
+  color: gray;
+}
+
+.light-green-row>td>input {
+  color: gray;
+}
+
+.bottom-info {
+  border-bottom: 1px solid lightgray;
+}
+
+#hole {
+  width: 20%;
+}
+
+#save-card {
+  margin: auto;
+  height: 80%;
+  width: 80%;
+}
+
+#out {
+  width: 15%
+}
+
+#date {
+  width: 75%;
+}
+
+#scorer {
+  width: 70%;
+}
+
+#attest {
+  width: 80%;
+}
